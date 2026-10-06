@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright": "^1.62.1"
+  },
+  "name": "oasis-pulse",
+  "version": "0.1.0",
+  "private": true,
+  "author": "qTUR",
+  "description": "A one-touch desert journey through dunes, oases and ancient passages.",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node checks.cjs",
+    "test:browser": "node browser-checks.cjs",
+    "test:layout": "node layout-checks.cjs",
+    "export:art": "node export-art.cjs",
+    "start": "node serve.cjs"
+  }
+}
